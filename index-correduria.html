@@ -1,70 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seidoc - Gestión documental para corredurías</title>
-    <link rel="stylesheet" href="css/corredurias/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seidoc - Gestión Documental para Corredurías</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>La solución documental que tu correduría necesita</h1>
-        <p>Automatiza procesos, organiza tus documentos y cumple con el RGPD. Todo desde una única plataforma diseñada para corredurías de seguros.</p>
-        <a href="#cta" class="cta-button">Prueba Seidoc gratis durante 14 días</a>
-    </section>
+  <!-- TÍTULO Y SUBTÍTULO -->
+  <header id="hero">
+    <div class="container">
+      <h1>La solución definitiva para tu correduría de seguros</h1>
+      <p>Automatiza procesos, organiza documentos y cumple con el RGPD en un solo lugar.</p>
+    </div>
+  </header>
 
-    <!-- Problemas del Sector -->
-    <section class="problems">
-        <h2>¿Cansado de perder tiempo con la gestión documental?</h2>
-        <p>Descubre cómo Seidoc elimina los problemas comunes de las corredurías:</p>
-        <ul>
-            <li>Búsqueda manual de documentos.</li>
-            <li>Demoras en recopilar firmas electrónicas.</li>
-            <li>Riesgos legales por incumplimiento normativo.</li>
-            <li>Dificultad para colaborar con clientes y equipos.</li>
-        </ul>
-        <img src="problemas-comparativa.png" alt="Antes y después de Seidoc">
-    </section>
+  <!-- VIDEO TESTIMONIAL CON FRASE -->
+  <section id="testimonio">
+    <div class="container flex">
+      <div class="video">
+        <video controls>
+          <source src="testimonio.mp4" type="video/mp4">
+          Tu navegador no soporta este video.
+        </video>
+      </div>
+      <div class="frase">
+        <h2>"Con Seidoc, nuestra productividad se ha duplicado."</h2>
+        <p>- Cliente satisfecho</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Beneficios -->
-    <section class="benefits">
-        <h2>Transforma tu correduría con Seidoc</h2>
-        <div class="benefits-list">
-            <div class="benefit-item">
-                <h3>Automatización de procesos</h3>
-                <p>Organización automática de documentos y carpetas.</p>
-            </div>
-            <div class="benefit-item">
-                <h3>Firma electrónica rápida</h3>
-                <p>Validez legal garantizada, sin imprimir ni escanear.</p>
-            </div>
-            <div class="benefit-item">
-                <h3>Cumple con el RGPD</h3>
-                <p>Gestión documental alineada con las normativas europeas.</p>
-            </div>
-            <div class="benefit-item">
-                <h3>Ahorro de tiempo</h3>
-                <p>Dedica más tiempo a tus clientes y menos a papeles.</p>
-            </div>
+  <!-- FEATURES DESTACADOS -->
+  <section id="features">
+    <div class="container">
+      <h2>Características principales</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <h3>✍️ Firma Digital</h3>
+          <p>Facilita la aprobación de documentos con validez legal.</p>
         </div>
-    </section>
+        <div class="feature">
+          <h3>🔒 Seguridad Total</h3>
+          <p>Protege tus datos con cifrado de última generación.</p>
+        </div>
+        <div class="feature">
+          <h3>📤 Colaboración Fácil</h3>
+          <p>Comparte documentos con tu equipo de forma segura.</p>
+        </div>
+        <div class="feature">
+          <h3>🔍 Búsqueda Avanzada</h3>
+          <p>Encuentra lo que necesitas en segundos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Testimonio -->
-    <section class="testimonial">
-        <h2>Una correduría ya dio el paso. ¿Y tú?</h2>
-        <blockquote>"Con Seidoc, hemos reducido un 50% el tiempo dedicado a tareas administrativas."</blockquote>
-        <p>- Equipo de una correduría</p>
-        <a href="testimonio-video.mp4" class="cta-button">Ver el testimonio</a>
-    </section>
+  <!-- TESTIMONIOS DE CLIENTES -->
+  <section id="testimonios-clientes">
+    <div class="container">
+      <h2>Nuestros clientes opinan</h2>
+      <div class="clientes-grid">
+        <div class="cliente">
+          <img src="cliente1.jpg" alt="Cliente feliz">
+          <p>"Gracias a Seidoc, hemos ahorrado horas de trabajo cada semana."</p>
+        </div>
+        <div class="cliente">
+          <img src="cliente2.jpg" alt="Cliente feliz">
+          <p>"La implementación fue rápida y ahora todo está más organizado."</p>
+        </div>
+        <div class="cliente">
+          <img src="cliente3.jpg" alt="Cliente feliz">
+          <p>"Finalmente, un sistema que cumple con todas nuestras expectativas."</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Call to Action -->
-    <section id="cta" class="cta-section">
-        <h2>Prueba Seidoc y lleva tu correduría al siguiente nivel</h2>
-        <p>Prueba gratuita durante 14 días. Sin compromiso. Sin tarjetas.</p>
-        <a href="#" class="cta-button">Empieza ahora</a>
-    </section>
+  <!-- DESCRIPCIÓN DE SEIDOC -->
+  <footer id="descripcion">
+    <div class="container">
+      <h2>¿Qué es Seidoc?</h2>
+      <p>Seidoc es una plataforma diseñada específicamente para corredurías de seguros. Automatiza procesos, facilita la firma electrónica, y asegura el cumplimiento del RGPD, todo desde una interfaz intuitiva y segura.</p>
+    </div>
+  </footer>
 
-    <script src="js/corredurias/scripts.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
