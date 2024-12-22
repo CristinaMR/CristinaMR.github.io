@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Canciones de Cristina</title>
+    <link>https://cristinamr.github.io/</link>
+    <description>Disfruta de una colección de canciones subidas por Cristina.</description>
+    <language>es-ES</language>
+    <item>
+      <title>Frozen.mp3</title>
+      <link>https://cristinamr.github.io/music/Frozen.mp3</link>
+      <description>Archivo de música Frozen.mp3 disponible para escuchar y descargar.</description>
+      <pubDate>Wed, 13 Dec 2024 14:00:00 GMT</pubDate>
+      <guid>https://cristinamr.github.io/music/Frozen.mp3</guid>
+    </item>
+  </channel>
+</rss>
